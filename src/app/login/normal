@@ -1,0 +1,13 @@
+data binding
+
+1. one way binding
+
+   1.1  from view to component
+    1.1.1 Event binding (click, mouseover, key press) $event
+
+   1.2 from component to view
+        1.2.1 String interpolation / interpolation {{}}
+        1.2.2 Property binding []
+
+
+2. two way binding
