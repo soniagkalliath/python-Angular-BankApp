@@ -4,6 +4,7 @@ data binding
 
    1.1  from view to component
     1.1.1 Event binding (click, mouseover, key press) $event
+    1.1.2 template referencing
 
    1.2 from component to view
         1.2.1 String interpolation / interpolation {{}}
@@ -11,3 +12,4 @@ data binding
 
 
 2. two way binding
+        2.1 ngModel (FormsModule)

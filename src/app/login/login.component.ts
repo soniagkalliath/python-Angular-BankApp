@@ -32,9 +32,9 @@ export class LoginComponent implements OnInit {
     console.log(this.pswd);
   }
 
-  login(){
-       var accno = this.accnum ;
-        var pwd = this.pswd ;
+  login(a:any,p:any){
+       var accno = a.value ;
+        var pwd = p.value ;
         let details = this.account_details;
         if (accno in details) {
             if (pwd == details[accno]["password"]) {
