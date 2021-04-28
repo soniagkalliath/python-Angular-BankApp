@@ -9,7 +9,7 @@ export class LoginComponent implements OnInit {
 
   aim = "Your Perfect banking partner";
   accountNumber = "Account Number Please"
-  accnum="";
+  accnum="Account Number Please";
   pswd="";
    account_details: any = {
     1000: { name: "ajay", accno: 1000, password: "testone", amount: 5000 },
@@ -32,9 +32,9 @@ export class LoginComponent implements OnInit {
     console.log(this.pswd);
   }
 
-  login(a:any,p:any){
-       var accno = a.value ;
-        var pwd = p.value ;
+  login(){
+       var accno = this.accnum;
+        var pwd = this.pswd; ;
         let details = this.account_details;
         if (accno in details) {
             if (pwd == details[accno]["password"]) {
