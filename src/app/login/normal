@@ -1,23 +1,29 @@
-Angular
+Angular (Front end development technology)
 
-component
+Feature
 
-Modules
+1. component
 
-Dependency Injection / Inversion of control
+2. Modules
 
-data binding
+3. data binding
 
-1. one way binding
+        1. one way binding
 
-   1.1  from view to component
-    1.1.1 Event binding (click, mouseover, key press) $event
-    1.1.2 template referencing
+                 1.1  from view to component
+                         1.1.1 Event binding (click, mouseover, key press) $event
+                         1.1.2 template referencing
 
-   1.2 from component to view
-        1.2.1 String interpolation / interpolation {{}}
-        1.2.2 Property binding []
+                 1.2 from component to view
+                         1.2.1 String interpolation / interpolation {{}}
+                         1.2.2 Property binding []
 
 
-2. two way binding
-        2.1 ngModel (FormsModule)
+        2. two way binding
+                 2.1 ngModel (FormsModule)
+
+4.Dependency Injection / Inversion of control
+
+5.Services
+
+6. Reactive Forms
